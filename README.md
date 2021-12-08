@@ -14,16 +14,16 @@ In addition to the Proxy server and OAuth implementations, you can also create y
 
 - client/
 
-  - **.env**
+  - .env
   - src/
     - components/
-      - [**Home.tsx**](https://github.com/rbob86/visualizations-sdk-example/blob/main/client/src/components/Home.tsx)
+      - [Home.tsx](https://github.com/rbob86/visualizations-sdk-example/blob/main/client/src/components/Home.tsx)
     - [utils/](https://github.com/rbob86/visualizations-sdk-example/tree/main/client/src/utils)
-      - **LookerSDK.ts**
-      - **PblSession.ts**
+      - LookerSDK.ts
+      - PblSession.ts
 
 - api/
-  - **.env**
+  - .env
   - [src/routes/auth.ts](https://github.com/rbob86/visualizations-sdk-example/blob/main/api/src/routes/auth.ts)
 
 ## Try it out
