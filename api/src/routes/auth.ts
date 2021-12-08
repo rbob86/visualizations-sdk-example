@@ -6,7 +6,7 @@ const router = express.Router()
 router.get('/token', async (req: Request, res: Response) => {
     try {
         const user = await sdk.ok(
-            sdk.user_for_credential('email', 'rbobrowski@google.com')
+            sdk.user_for_credential('email', 'user@example.com')
         )
         const accessToken = await sdk.ok(sdk.login_user(user.id!))
         res.json(accessToken)

@@ -7,7 +7,7 @@ import {
     ITransport,
 } from '@looker/sdk-rtl'
 
-export class CorsSession extends AuthSession {
+export class PblSession extends AuthSession {
     token_endpoint = ''
     activeToken = new AuthToken()
 
@@ -55,4 +55,4 @@ export class CorsSession extends AuthSession {
     }
 }
 
-export default CorsSession
+export default PblSession

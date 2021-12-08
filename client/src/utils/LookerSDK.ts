@@ -1,8 +1,8 @@
 import { Looker40SDK } from '@looker/sdk'
 import { DefaultSettings } from '@looker/sdk-rtl'
-import CorsSession from './CorsSession'
+import PblSession from './PblSession'
 
-const session = new CorsSession({
+const session = new PblSession({
     ...DefaultSettings(),
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     base_url: process.env.REACT_APP_LOOKER_API_URL!,
